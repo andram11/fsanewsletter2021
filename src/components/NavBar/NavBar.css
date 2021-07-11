@@ -1,0 +1,38 @@
+
+.navbar {
+  
+    background-color:#4C267C;
+    font-family: 'Montserrat', sans-serif;
+    font-size:17px;
+    
+    
+  
+  }
+
+  .nav-link{
+    display:inline;
+    padding-right:30px;
+  }
+  
+  .navbar-nav a{
+    text-align: center;
+    color: white;
+  }
+ 
+  .navbar a:hover{
+    color: #7f5081;
+  }
+  
+
+
+  .navbar-toggler[aria-expanded="true"] {
+    color: #4C267C!important;
+    }
+    .navbar .navbar-toggler:focus{
+    color: #4C267C;
+    }
+
+    .navbar-toggler[aria-expanded="false"] {
+      color: #4C267C!important;
+      }
+    

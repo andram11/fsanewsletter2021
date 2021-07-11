@@ -1,0 +1,46 @@
+
+
+   
+   .header img{
+     float:left;
+     
+     padding: 20px 0px 10px 25px;
+     
+     
+   }
+   
+   .header h1{
+     font-family: 'signatriaregular';
+     justify-content: center;
+     /* margin-top: 5px;
+     margin-bottom: auto; */
+     font-weight: bold;
+     font-size:60px;
+     color: 	#383838;
+     position: relative;
+     display:inline-block;
+     
+     
+     
+   }
+  
+   
+   .header{
+     display:flex;
+     height: 70px;
+     justify-content: space-between;
+     text-align: center;
+     border-bottom: 1px solid grey;
+     
+     margin-bottom: 5px; 
+     
+     
+     
+   }
+   
+
+   #issue{
+    padding: 20px 20px 0px 0px;
+    font-size: 30px;
+    font-family: 'signatriaregular';
+   }

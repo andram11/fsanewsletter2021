@@ -1,0 +1,49 @@
+#manage_article_form{
+    background-color: whitesmoke;
+    
+}
+
+#createArticleForm{
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+
+    
+}
+
+#createArticleForm label{
+margin-top: 15px;
+
+    
+}
+
+
+#createArticleForm textarea{
+    margin-top: 5px;
+    
+        
+    }
+.card.card-block{
+    border: transparent;
+    margin-bottom: 10px; 
+    margin-top: 0px;
+}
+
+#currentIssueCheckBox{
+    background-color: whitesmoke;
+    margin-top: 10px;
+    border: transparent;
+   
+}
+
+.input-group-text input {
+    margin: 23px 10px 5px 0px !important;
+}
+
+p button{
+    margin-right: 20px;
+    
+}
+
+#container{
+    padding-bottom: 30px;
+}

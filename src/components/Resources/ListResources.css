@@ -1,0 +1,26 @@
+.card-body h1{
+    font-family: 'Montserrat' ;
+}
+.btn-link{
+    color: #78267c !important;
+    text-decoration: none !important;
+}
+
+.btn-link:focus{
+border-color: #4C267C !important;
+box-shadow:1px 1px 2px 2px transparent !important; 
+}
+
+
+
+#heading{
+    border-color: #78267c ;
+}
+
+
+#ResourceCard{
+    
+    width:100%;
+    border-color: none;
+    
+}

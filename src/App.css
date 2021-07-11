@@ -1,0 +1,29 @@
+
+/*CUSTOMISED FONT*/
+@font-face {
+  font-family: 'signatriaregular';
+  src: url('./images/fonts/signatria-webfont.woff2') format('woff2'),
+       url('./images/fonts/signatria-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+
+.container-fluid{
+  padding:3px !important; 
+  margin:0px !important;
+}
+
+/* th {
+  text-align: center;
+  border: 1px solid black;
+  background: #018ded;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+} */

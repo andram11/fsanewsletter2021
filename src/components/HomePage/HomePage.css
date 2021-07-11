@@ -1,0 +1,102 @@
+#image_heading {
+  background-image: url('./../../images/july_image.jpg');
+  width: 100%;
+  height: 250px;
+  background-position: center center;
+  margin-top: auto;
+  
+  
+ }
+
+.p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.btn.btn-primary {
+    background-color: #78267c  !important;
+    border-color: #78267c !important ;
+    font-size: small;
+  
+  }
+
+.card{
+ 
+    /*padding: 5px 5px 5px 5px;*/
+    margin-bottom: 30px;
+    margin-top: 40px;
+    width: 75%;
+  
+    
+  }
+  
+  .card-body{
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+
+  .card-title{
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+
+  #card_events{
+    float:right;
+    width: 20%;
+    /*padding: 5px 5px 5px 5px;*/
+    background-color: whitesmoke;
+    margin-top: 60px;
+    margin-right: 50px;  
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px
+    
+  }
+
+  @media screen and (max-width: 992px) {
+    #card_events {
+      float:none;
+      bottom: 0;
+      width: 100%; 
+      
+    }
+  
+    .card{
+      width: fit-content;
+    }
+
+       
+  #image_heading {
+ 
+    width: 100%; 
+    
+  } 
+  }
+
+  #event_title{
+    text-align:center;
+    font-family: 'signatriaregular';
+    font-size: 40px;
+  }
+
+
+  .list-group-item {
+   background-color: whitesmoke !important;
+
+  }
+
+
+  .active{
+    background-color: #78267c !important;
+ 
+   }
+   #latest_issue{
+    border-top: 1px solid darkgrey;
+    margin-top: 5px; /*horizontal ruler*/
+    margin-left:10px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-top: 40px;
+  }
+

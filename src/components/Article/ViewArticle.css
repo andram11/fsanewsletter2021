@@ -1,0 +1,25 @@
+ .container{
+   
+        
+        
+       
+        
+        max-height:100% !important;
+        padding-bottom: 20px;
+    
+} 
+
+.container h1{
+    font-family: 'signatriaregular';
+}
+ #issueOf{
+   font-size: 15px;
+   font-style: italic;
+
+}
+
+#author{
+    font-size: 15px;
+    font-weight:bold;
+ 
+ } 
