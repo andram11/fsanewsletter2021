@@ -1,4 +1,4 @@
 module.exports = {
     USER: 'andra.mertilos@intys.eu',
-    PASS: 'GHKXCV17?a'
+    PASS: 'rtyFGH12072021?_'
 }

@@ -18,7 +18,7 @@ class IdeaBoxForm extends React.Component {
     axios({
       method: "POST",
       // url:"http://localhost:3002/send",
-      url:"http://fsanewsletteremailprod.eu-central-1.elasticbeanstalk.com/send",
+      url:"https://email.intysfsanewsletter.be/send",
       data:  this.state
     }).then((response)=>{
       if (response.data.status === 'success') {
