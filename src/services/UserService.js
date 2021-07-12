@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const user_management_url= "http://fsanewsletterbackend-env.eba-dscfesq2.eu-central-1.elasticbeanstalk.com/api/v1/auth"
+const user_management_url= "https://api.intysfsanewsletter.be/api/v1/auth"
 
 
 class UserService{

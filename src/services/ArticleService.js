@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const article_base_url= "http://fsanewsletterbackend-env.eba-dscfesq2.eu-central-1.elasticbeanstalk.com/api/v1/" 
+const article_base_url= "https://api.intysfsanewsletter.be/api/v1/" 
 
 const options = {
     headers: {'Content-Type': 'multipart/form-data',
