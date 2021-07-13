@@ -46,7 +46,7 @@ class IdeaBoxForm extends React.Component {
               <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
           </div>
           <div className="form-group" id="ideaBody">
-              <label htmlFor="exampleInputEmail1">Email address</label>
+              <label htmlFor="exampleInputEmail1">Email address (only Intys email address)</label>
               <input type="email" className="form-control" id="email" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
           </div>
           <div className="form-group" id="ideaBody">
