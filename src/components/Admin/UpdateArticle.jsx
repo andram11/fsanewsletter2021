@@ -101,8 +101,8 @@ export default function UpdateArticle(){
               clearInterval(interval)}
             if (issueYearField.current){setIssueYear(issueYearField.current.value)
               clearInterval(interval)}
-            if (currentIssueField.current){setCurrentIssue(currentIssueField.current.value)
-              clearInterval(interval)}
+            // if (currentIssueField.current){setCurrentIssue(currentIssueField.current.value)
+            //   clearInterval(interval)}
             
           
         }, 100)
