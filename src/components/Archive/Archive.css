@@ -1,0 +1,12 @@
+#archive_list{
+    font-family: 'Montserrat' ;
+    font-style: bold;
+    font-weight: bold;
+}
+
+
+#article_link{
+    text-decoration: none;
+    color:inherit;
+    
+  }

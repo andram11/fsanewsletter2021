@@ -3,6 +3,12 @@
     
 }
 
+#retrieve_article_form{
+    background-color: whitesmoke;
+    
+}
+
+
 #createArticleForm{
     background-color: whitesmoke;
     margin-bottom: 15px;
@@ -46,4 +52,15 @@ p button{
 
 #container{
     padding-bottom: 30px;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+#mainContainer {
+    display: flex;
+   
+   align-items: center;
+   justify-content: center;
 }

@@ -1,0 +1,23 @@
+.signup-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#username{
+    margin-bottom: 25px;
+   
+}
+
+#password{
+    margin-bottom: 25px;
+
+}
+
+#email{
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}

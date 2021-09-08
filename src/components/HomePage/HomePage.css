@@ -1,11 +1,9 @@
 #image_heading {
-  background-image: url('./../../images/july_image.jpg');
+  background-image: url('./../../images/september_image3.jpg');
   width: 100%;
-  height: 250px;
-  background-position: center center;
+  height: 270px;
+  background-position:  center top ;
   margin-top: auto;
-  
-  
  }
 
 .p{
@@ -54,25 +52,41 @@
     
   }
 
-  @media screen and (max-width: 992px) {
-    #card_events {
-      float:none;
-      bottom: 0;
-      width: 100%; 
-      
-    }
-  
-    .card{
-      width: fit-content;
-    }
-
-       
-  #image_heading {
- 
-    width: 100%; 
+  #archive_body{
+    position: absolute;
+    top: 100%;
+    right: 3%;
+    background-color: whitesmoke;
+    margin-top: 80px;
+    margin-right: 50px;  
     
-  } 
   }
+
+  #archive_title{
+    font-family: 'signatriaregular';
+    font-size: 40px;
+  }
+
+  #archive_content{
+    position: absolute;
+    top: 120%;
+    right:2.5%;
+    display: table;
+    width:300px;
+    height:70px;
+    
+  }
+
+  #archive_content p{
+    
+    text-align:left; 
+    vertical-align: middle;
+    display: table-cell;   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+  }
+
 
   #event_title{
     text-align:center;
@@ -80,6 +94,8 @@
     font-size: 40px;
   }
 
+
+ 
 
   .list-group-item {
    background-color: whitesmoke !important;
@@ -100,3 +116,66 @@
     padding-top: 40px;
   }
 
+ #archive_content a{
+    text-decoration: none;
+    color:inherit;
+    
+  }
+
+  @media screen and (max-width: 992px) {
+
+    #card_events {
+      float:none;
+      bottom: 0;
+      width: 100%; 
+      border-bottom: 1px solid darkgrey;/*delimit widgets*/
+      
+    }
+    
+    #event_title {
+      margin-top: -40px;
+    
+    }
+    #latest_issue{
+    margin-top: none;
+    border-top: none;
+    font-size: 1em;
+    }
+  
+    #archive_body{
+      position: relative;
+      width: 100%;
+      /* bottom:0; */
+      text-align: center;
+      padding-top: 10px;
+      margin-top: 10px;
+      
+    }
+    #archive_content{
+      position: relative;
+      width: 100%;
+      margin-left: 10px;
+      /* bottom:0; */
+      text-align: center;
+      border-bottom: 1px solid darkgrey;
+      
+    }
+  
+    #archive_content p{
+      padding-left: 15px;
+    }
+      
+    .card{
+      width: 100%;
+    
+    }
+
+  #image_heading {
+    width: 100%; 
+  
+  } 
+
+  
+
+
+  }
