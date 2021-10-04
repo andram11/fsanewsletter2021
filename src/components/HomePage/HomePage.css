@@ -57,7 +57,7 @@
     top: 100%;
     right: 3%;
     background-color: whitesmoke;
-    margin-top: 80px;
+    margin-top: 150px;
     margin-right: 50px;  
     
   }
@@ -69,7 +69,7 @@
 
   #archive_content{
     position: absolute;
-    top: 120%;
+    top: 130%;
     right:2.5%;
     display: table;
     width:300px;
