@@ -32,10 +32,9 @@ class HomePage extends Component {
            <div id="card_events" className="float-lg-right border-1">
                 <h5 id= "event_title" >Upcoming events</h5>
                  <ul className="list-group list-group-flush">
-                          <li className="list-group-item active" aria-current="true">13th of September: Practice Meeting</li>
-                         <li className="list-group-item">October: FSA Values Project 1</li>
-                         <li className="list-group-item">November: FSA Values Project 2</li>
-                         <li className="list-group-item">December: FSA Values Project 3</li>
+                          <li className="list-group-item active" aria-current="true">October FSA Values Project: (Creativity) Online BA Course </li>
+                         <li className="list-group-item">November FSA Values Project: (Commitment) Team Building Event</li>
+                         <li className="list-group-item">December FSA Values Project: (Proactivity) Client lunches</li>
                          <li className="list-group-item">End December: Practice Meeting</li>
                          <li className="list-group-item">End December: FSA Newsletter Quarter 4</li>  
                  </ul> 
