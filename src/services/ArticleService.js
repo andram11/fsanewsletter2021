@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const article_base_url= "https://api.intysfsanewsletter.be/api/v1/" 
-//const article_base_url= "http://localhost:8081/api/v1/" 
+//const article_base_url= "https://api.intysfsanewsletter.be/api/v1/" 
+const article_base_url= "http://localhost:8081/api/v1/" 
 
 const options = {
     headers: {'Content-Type': 'multipart/form-data',

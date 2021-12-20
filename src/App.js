@@ -28,10 +28,6 @@ import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom
 
 /*Tokens*/
 import useToken from './useToken'
-
-
-
-
 /* 
 function setToken(userToken) {
   sessionStorage.setItem('token', JSON.stringify(userToken.accessToken));
